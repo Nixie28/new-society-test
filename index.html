@@ -25,12 +25,40 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
         }
         h2 {
             color: #3498db;
         }
         p {
             color: #34495e;
+        }
+        .contact-info {
+            background-color: #ebf5fb;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        .values-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .values-list li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .values-list li:before {
+            content: '•';
+            color: #3498db;
+            position: absolute;
+            left: 0;
+        }
+        .get-involved {
+            background-color: #e8f8f5;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -40,6 +68,35 @@
         <h2>About Us</h2>
         <p>This is a simple demonstration page for our new society project.</p>
         <p>We are dedicated to creating meaningful connections and fostering community growth.</p>
+        
+        <h2>Our Mission</h2>
+        <p>To build a more connected and supportive community through innovative social initiatives and collaborative projects.</p>
+        
+        <h2>Our Values</h2>
+        <ul class="values-list">
+            <li>Inclusivity and Diversity</li>
+            <li>Innovation and Creativity</li>
+            <li>Community First</li>
+            <li>Sustainable Growth</li>
+        </ul>
+        
+        <div class="get-involved">
+            <h2>Get Involved</h2>
+            <p>There are many ways to contribute to our community:</p>
+            <ul class="values-list">
+                <li>Join our monthly meetups</li>
+                <li>Participate in community projects</li>
+                <li>Share your skills and knowledge</li>
+                <li>Volunteer for local initiatives</li>
+            </ul>
+        </div>
+        
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Email: contact@newsociety.org</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Address: 123 Community Street, Innovation City, IC 12345</p>
+        </div>
     </div>
 </body>
 </html>
